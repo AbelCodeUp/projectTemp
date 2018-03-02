@@ -1,0 +1,160 @@
+.myPersonCenterbox{
+   padding-top: 0.34rem
+}
+.myPersonCenterbox li{
+	margin-bottom: 0.34rem;
+	line-height: 1.191rem;
+	padding:0.35rem 0.477rem 0;
+	background: #fff;
+	border-top:1px solid #E8E8E8;
+	border-bottom:1px solid #E8E8E8;
+	font-size: 14px;
+	overflow: hidden;
+	position: relative;
+	height: 1.191rem;
+}
+.myPersonCenterbox li input[type="text"]{
+	font-size: 14px;
+	float:right;
+	text-align: right;
+	outline: none;
+	line-height: 16px;
+}
+.myPersonCenterbox li i{
+	float: right;
+	font-size: 18px;
+	color:#777474;
+}
+.myPersonCenterbox li span{
+	position: relative;
+	top:-0.35rem;
+}
+.myPersonCenterbox .ant-input{
+  text-align:right;
+  border:0;
+  font-size:0.36rem;
+}
+.myPersonCenterbox .ant-calendar-picker-icon{
+  display: none;
+}
+.sexbox{
+	float:right;
+	position: relative;
+	top:-0.35rem;
+}
+
+.rdo {
+    width: 0.34rem;
+    height: 0px;
+    background-color: #000;
+    margin-right: 0.272rem;
+    border-radius: 50%;
+    position: relative;
+    top:-0.306rem;
+}
+.rdo:before,.rdo:after {
+    content: '';
+    display: block;
+    position: absolute;
+    border-radius: 50%;
+    transition: .3s ease;
+}
+.rdo:before {
+    top: 0px;
+    left: 0px;
+    width: 0.34rem;
+    height: 0.34rem;
+    background-color: #fff;
+    border: 1px solid #b8b8b8;
+}
+.rdo:after {
+    top: 0.04rem;
+    left: 0.04rem;
+    width: 0.255rem;
+    height: 0.255rem;
+    background-color: #b8b8b8;
+}
+.rdo:checked:after {
+	top: 0.04rem;
+	left: 0.04rem;
+	width: 0.255rem;
+	height: 0.255rem;
+	background-color:#2B8EEF;
+}
+.rdo:checked:before {
+	border-color:#2B8EEF;
+}
+
+#girl{
+	margin-left: 0.8rem;
+}
+.saveBtn{
+	width: 4.357rem;
+	height: 1.089rem;
+	background: #FF6600;
+	color:#fff;
+	border-radius: 0.851rem;
+	display: block;
+	margin:0 auto;
+	text-align: center;
+	line-height: 1.089rem;
+	font-size: 14px;
+	margin-top: 1.021rem;
+}
+
+.changebox{
+	margin-bottom: 0.34rem;
+}
+.changebox p{
+	font-size: 12px;
+	color:#777474;
+	padding:0 0.477rem;
+	margin-bottom: 0.153rem
+}
+.psbox{
+	background: #fff;
+	height: 1.191rem;
+	padding-top:0.35rem;
+	border-top:1px solid #E8E8E8;
+	border-bottom:1px solid #E8E8E8;width: 100%;
+}
+.changebox input{
+	background: #fff;
+	padding-left: 0.477rem;
+	
+	width: 100%;
+	
+	font-size: 14px;
+	line-height: 16px;
+}
+.phonebox{
+	color:#777474;
+}
+.myPersonCenterbox li input.yanzhen{
+	float: left;
+	text-align: left;
+	font-size: 14px;
+	line-height: 16px;
+}
+.yanzhenBtn{
+	position: relative;
+	width: 3.983rem;
+	height: 100%;
+	background: #DC2828;
+	color: #fff;
+	position: absolute;
+	right:0;
+	top:0;
+}
+.yanzhengP{
+	margin-top: 0.34rem;
+	padding:0 0.477rem;
+	margin-bottom: 0.238rem
+}
+.yanzhengP p{
+	color:#777474;
+	font-size: 12px;
+}
+.yanzhengP-ul{
+	padding-top: 0;
+}

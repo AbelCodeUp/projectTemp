@@ -1,0 +1,192 @@
+.detail_wrapper{
+    width:100%;
+    height:auto;
+    background-color:#e6f2ff;
+    overflow:hidden;
+    font-family: '微软雅黑';
+}
+.detail_bg{
+    width:100%;
+    height:6.2rem;
+    position:relative;
+    background: url("../images/detail_banner.png") no-repeat top center;
+    background-size:contain;
+}
+.detail_video{
+    position:relative;
+    margin-top:-1.5rem;
+}
+.video_item{
+    width:90%;
+    margin:0 auto;
+    /*height:4.085rem;*/
+    background-color: #00a8ff;
+    border-radius:0.17rem;
+    border:0.068rem solid #071258;
+}
+.video_con{
+    border: 0.085rem dotted #fff;
+    margin: 0.085rem;
+    border-radius: 0.17rem;
+}
+.video{
+    margin: 0.085rem;
+    /*padding: 2.702rem;*/
+    border: 0.068rem solid #071258;
+    border-radius:0.17rem;
+}
+.video img{
+    width:100%;
+}
+.detail_go{
+    margin:0.681rem auto 0;
+    width:80%;
+}
+.go_info{
+    height:1.874rem;
+    background-color:#ffb400;
+    border:0.102rem solid #f0d999;
+    border-radius:58px;
+    color:#573d00;
+    font-size:0.4rem;
+    text-align: center;
+    line-height:0.851rem;
+}
+.go_info p{
+    font-size:0.45rem;
+}
+.go_info p span{
+    font-size:0.5rem;
+}
+.go_code{
+    padding:1.021rem 0 0;
+    text-align: center;
+}
+.go_code a{
+    display: block;
+    margin-bottom:1.021rem;
+}
+.go_code a img{
+    display:block;
+    width:100%;
+}
+.go_code a:nth-child(1){
+    margin-bottom:1.021rem;
+}
+.go_code a:nth-child(2) img{
+    display:block;
+    width:100%;
+    background-color: #00a8ff;
+    padding:0.34rem;
+    border-radius:0.511rem;
+    border:0.068rem solid #041d35;
+    box-sizing: border-box;
+}
+.go_step{
+    /*height: 10rem;*/
+    background: url(../images/detail_bg.png) no-repeat top center;
+    background-size: contain;
+
+}
+.go_step ul.step{
+    padding:0 1.5rem;
+    font-size:0.42rem;
+    line-height:0.681rem;
+    color:#041d35;
+    margin-bottom:0.511rem;
+}
+.go_step ul.step li a{
+    margin-left:0.34rem;
+    display:inline-block;
+    background-color:#ffb400;
+    padding:0.17rem 0.51rem;
+    border-radius:1.362rem;
+    box-shadow:0 0.1rem #7c5800;
+    color:#fff;
+    font-weight: bold;
+    -webkit-text-stroke: 0.034rem #7c5800;
+}
+.go_step ul.step li:nth-child(1){
+    margin-left:0.511rem;
+
+}
+.go_step ul.step li:nth-child(2){
+    margin-left:0.681rem;
+    margin-top: 2rem;
+}
+.go_step ul.step li:nth-child(3){
+    margin-left:0.511rem;
+    margin-top: 1.5rem;
+}
+.comment{
+    padding:0.34rem;
+}
+.comment ul{
+    /*height:500px;*/
+    border-radius:0.34rem;
+    background-color:#00a8ff;
+}
+
+li.comment_item{
+    padding:0.6rem 0.34rem 0;
+    display:flex;
+    flex-direction: row;
+}
+.comment ul li:nth-child(1){
+    padding:1rem 0;
+    text-align: center;
+}
+.comment ul li:nth-child(1) img{
+    width:80%;
+    display: inline-block;
+}
+.comment ul li:last-child{
+    padding:0.6rem 0;
+    text-align: center;
+    font-size:0.409rem;
+    line-height:0.681rem;
+}
+.comment ul li:last-child a{
+    color:#062839;
+}
+.com_left{
+    flex:2;
+}
+.com_left img{
+    width:100%;
+
+}
+.com_right{
+    margin-left:0.34rem;
+    color:#fff;
+    flex:5;
+}
+.com_right h5{
+    font-size:0.5rem;
+    line-height:1rem;
+}
+.com_right p{
+    font-size:0.36rem;
+    line-height:0.6rem;
+}
+.detail_share{
+    width:100%;
+    height:100%;
+    background-color:rgba(0,0,0,0.5);
+    position:fixed;
+    left:0;
+    top:0;
+    overflow:hidden;
+}
+.detail_share img{
+    width:80%;
+    float: right;
+    margin-right: 0.511rem;
+    margin-top: 0.851rem;
+}
+/*视频*/
+.video_box{ width: 100%; height: 100%; position: fixed;top:0; left: 0;z-index: 99999; display: none;}
+.video_box_zhezhaohei{position: absolute; top:0; left: 0;width:100%; height:100%;background: #000; opacity: 0.7; filter:alpha(opacity=70);cursor: pointer;}
+.video_rel_box{position: absolute; top:0; left: 0;right:0; bottom:0;margin:auto;width: 100%; height: auto;/*background: #000;*/}
+.video_box_close{position: absolute; top:225px; right: 10px;cursor: pointer; opacity: 0.8; filter:alpha(opacity=80); }
+.video_box_close:hover{opacity: 1; filter:alpha(opacity=100);}

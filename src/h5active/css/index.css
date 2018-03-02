@@ -1,0 +1,173 @@
+.wrapper{
+    width:100%;
+    height:auto;
+    background-color:#f5e4bb;
+    overflow:hidden;
+}
+.con_wrapper{
+    background-color:#f5e4bb;
+    overflow:hidden;
+}
+.wrapper_bg{
+    height:9.14rem;
+    position:relative;
+    background: url("../images/home_banner.png") no-repeat top center #ffb400;
+    background-size:contain;
+}
+.rule{
+
+}
+.rule a{
+  display: block;
+  padding-top: 6.3rem;
+  padding-left: 40%;
+  color: #333;
+}
+.conList{
+    margin:10px;
+    padding:10px;
+    border:2px solid #108aea;
+    border-radius:10px;
+    background-color:#fff;
+}
+.conList ul{
+    padding:10px 10px 0;
+    border:2px dotted #00a8ff;
+    border-radius:10px;
+}
+.conList ul li{
+    padding:10px;
+    margin-bottom:20px;
+}
+.conList ul li:nth-child(1){
+    /*height:80px;*/
+    background: url("../images/home_yellow.png") no-repeat 1px 0 #fff;
+    background-size:contain;
+    border:1px solid #ff9c00;
+    border-radius:10px;
+    color:#ffb400;
+    box-shadow:rgba(255,156,0,.35) 0 4px 2px;
+}
+.conList ul li:nth-child(2){
+    /*height:80px;*/
+    background: url("../images/home_orange.png") no-repeat 1px 0 #fff;
+    background-size:contain;
+    border:1px solid #ff7800;
+    border-radius:10px;
+    color:#ff7800;
+    box-shadow:rgba(255,120,0,.35) 0 4px 2px;
+}
+.conList ul li:nth-child(3){
+    /*height:80px;*/
+    background: url("../images/home_blue.png") no-repeat 1px 0 #fff;
+    background-size:contain;
+    border:1px solid #108aea;
+    border-radius:10px;
+    color:#108aea;
+    box-shadow:rgba(16,138,234,.2) 0 4px 2px;
+}
+.conList ul li:nth-child(4){
+    /*height:80px;*/
+    background: url("../images/home_red.png") no-repeat 1px 0 #fff;
+    background-size:contain;
+    border:1px solid #ff0000;
+    border-radius:10px;
+    color:#ff0000;
+    box-shadow:rgba(255,0,0,.2) 0 4px 2px;
+}
+.conList ul li:nth-child(5){
+  /*height:80px;*/
+  background: url("../images/home_pink.png") no-repeat 1px 0 #fff;
+  background-size:contain;
+  border:1px solid #cc00ff;
+  border-radius:10px;
+  color:#cc00ff;
+  box-shadow:rgba(255,0,0,.2) 0 4px 2px;
+}
+.list_item{
+    display:flex;
+    flex-direction: row;
+}
+i.huo{
+  position: absolute;
+  margin-top: -7px;
+  right: 37px;
+  color: #fff;
+}
+.list_item .list_left{
+    flex: 1;
+    margin-top:10px;
+    text-align:left;
+}
+.list_item .list_left h4{
+    font-size:0.851rem;
+    font-weight:normal;
+}
+.list_item .list_left h4 span{
+  font-size: 24px;
+  vertical-align: middle;
+  display: inline-block;
+  margin-top: -5px;
+}
+.list_item .list_left p{
+    width:3.2rem;
+    font-size:0.409rem;
+}
+.list_item .list_left p span:nth-child(2){
+    margin-left:4px;
+}
+.list_item .list_left p i{/*padding-right:10px;*/}
+.list_item .list_right{
+    margin-top: 0.681rem;
+    text-align:right;
+    flex: 3;
+    justify-content: space-between;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.list_item .list_right h5{
+    font-size:12px;
+    line-height:0.681rem;
+    color:#333333;
+    font-weight: normal;
+}
+.list_item .list_right p{
+    font-size:0.272rem;
+    color:#999999;
+}
+.footer{
+    text-align: center;
+}
+.footer p{
+    font-size:0.306rem;
+    margin:0.851rem 0;
+
+}
+.footer p span{
+    text-decoration: underline;
+}
+.footer a{
+    margin:1rem auto;
+    display: block;
+    width:6.809rem;
+    height:1.191rem;
+    text-align: center;
+    line-height:1.191rem;
+    font-size:0.511rem;
+    color:#fff;
+    border-radius:0.766rem;
+    background-color:#ff6600;
+    border:1px solid #582504;
+    box-shadow: #582504 0 5px;
+}
+
+.icon{
+    width:0.681rem;
+    height:0.681rem;
+}
+/*视频*/
+.video_box{ width: 100%; height: 100%; position: fixed;top:0; left: 0;z-index: 99999; display: none;}
+.video_box_zhezhaohei{position: absolute; top:0; left: 0;width:100%; height:100%;background: #000; opacity: 0.7; filter:alpha(opacity=70);cursor: pointer;}
+.video_rel_box{position: absolute; top:0; left: 0;right:0; bottom:0;margin:auto;width: 100%; height: auto;/*background: #000;*/}
+.video_box_close{position: absolute; top:225px; right: 10px;cursor: pointer; opacity: 0.8; filter:alpha(opacity=80); }
+.video_box_close:hover{opacity: 1; filter:alpha(opacity=100);}

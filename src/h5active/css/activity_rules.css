@@ -1,0 +1,62 @@
+.rule_wrapper{
+    width:100%;
+    height:auto;
+    background-color:#f5e4bb;
+    overflow:hidden;
+    font-family:'微软雅黑';
+}
+.rule_bg{
+    width:100%;
+    height:5.8rem;
+    position:relative;
+    background: url("../images/rule_banner.png") no-repeat top center;
+    background-size:contain;
+}
+.rule_con{
+    margin:0 auto;
+}
+.rule_con .con_title{
+    margin:0.681rem auto;
+    height:1.4rem;
+    line-height:1.3rem;
+    background:url('../images/rule_title.png') no-repeat top center;
+    text-align:center;
+    font-size:0.715rem;
+    color:#fff;
+    background-size:contain;
+}
+.rule_con .con_content{
+    height:16rem;
+    background:url('../images/rule_bg.png') no-repeat top center;
+    background-size:contain;
+}
+.rule_content{
+    width:80%;
+    padding:1.702rem 10% 0;
+}
+.con_content h3{
+    font-size:0.443rem;
+    line-height:1.362rem;
+}
+.con_content p{
+    font-size:0.34rem;
+    line-height:0.545rem;
+    word-wrap: break-word;
+}
+.con_content p:nth-child(4){
+    margin-bottom:0.17rem;
+}
+.con_content p:nth-child(6){
+    margin-bottom:0.17rem;
+}
+.con_content p:nth-child(8){
+    margin-bottom:0.17rem;
+}
+.rule_code{
+    height: 5rem;
+    padding-top:0.34rem;
+    text-align:center;
+}
+.rule_code img{
+    height: 3rem;
+}

@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    top: 0;
+    right: 0;
+    text-align: center;
+    padding:1rem;
+    background: #eee;
+}
+
+.select-btn {
+    display: inline-block;
+    border: 1px solid #ccc;
+    padding: 1rem;
+    margin: 1rem 0;
+    cursor: pointer;
+    background: #fff;
+    &.sm {
+        margin: .5rem .5rem;
+        padding: .5rem;
+    }
+}
+
+.select-time {
+    margin-top: 1rem;
+    font-size: 2rem;
+}
+
+.chunjie{
+  width: 8.28rem;
+  background-color: transparent;
+
+}
+.chunjie_dialog{
+  position: relative;
+  padding-top: 1.65rem;
+}
+.chunjie_dialog img.active{
+  width: 100%;
+}
+.chunjie_dialog img.close{
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: .67rem;
+}
+
+.layui-m-layerchild{
+    box-shadow: none!important;
+}

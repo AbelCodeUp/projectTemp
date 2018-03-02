@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>详情分享</title>
+    <link rel="stylesheet" href="css/public/base.css">
+    <link rel="stylesheet" href="css/detail.css">
+    <script src="js/public/rem.js"></script>
+    <script src="js/public/jquery-3.2.0.js"></script>
+  <script src="./js/video.js"></script>
+</head>
+<body>
+<div class="detail_wrapper" >
+    <div class="detail_bg"></div>
+    <div class="detail_video" onclick="video_what(1);">
+        <div class="video_item">
+            <div class="video_con">
+                <div class="video">
+                    <img src="images/d_video.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="detail_go">
+        <div class="go_info">
+            首次报名¥99/4节课
+            <p>优惠数量仅限300名，还剩<span>155</span>名！</p>
+        </div>
+        <div class="go_code">
+            <a href="index.html#taocan"><img src="images/detail_title.png" /></a>
+            <a href="#"><img src="images/detail_code.png" /></a>
+        </div>
+    </div>
+    <div class="go_step">
+        <ul class="step">
+            <li>
+                <p>长按识别二维码或搜索“hi翻外教课堂” 关注公众号</p>
+            </li>
+            <li>
+                <p>点击菜单<a href="#">了解报名</a></p>
+            </li>
+            <li>
+                <p>报名成功后，点击<a href="#">约&nbsp;&nbsp;课</a><br/>进行测评或者预约上课</p>
+            </li>
+        </ul>
+        <div class="comment">
+            <ul>
+                <li>
+                    <img src="images/d_com_title.png" alt="">
+                </li>
+                <li class="comment_item">
+                    <div class="com_left">
+                        <img src="images/d_com1.png" alt="">
+                    </div>
+                    <div class="com_right">
+                        <h5>Ethan 妈妈</h5>
+                        <p>孩子上第一节课的时候我还担心他不喜欢，可看到有其他的小朋友一起学习，再加上有意思的动画课件和情景互动游戏，他居然开始主动和外教老师讲英语了！没想到孩子能这么快就接受这样的上课形式，真让我喜出望外。</p>
+                    </div>
+                </li>
+                <li class="comment_item">
+                    <div class="com_left">
+                        <img src="images/d_com2.png" alt="">
+                    </div>
+                    <div class="com_right">
+                        <h5>William 妈妈</h5>
+                        <p>在课上，孩子和其他小朋友们一起唱英文歌，一边唱一边手舞足蹈的，不光英语口语水平比之前进步了不少，也变得更活泼开朗了，谢谢hi翻少儿在线外教！</p>
+                    </div>
+                </li>
+                <li class="comment_item">
+                    <div class="com_left">
+                        <img src="images/d_com3.png" alt="">
+                    </div>
+                    <div class="com_right">
+                        <h5>Sunny 妈妈</h5>
+                        <p>女儿上课两周了，从完全听不懂老师讲什么，到现在因为回答出某个问题而获得小伙伴们的掌声，这就是进步。我相信，hi翻少儿在线外教会让你有更大的进步。加油，宝贝！</p>
+                    </div>
+                </li>
+                <li>
+                    <p><a href="#">目前已有超过2000名妈妈选择我们<br/>
+                        快去加入她们>></a></p>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+<div class="detail_share" onclick="xiaoshi()">
+    <img src="images/share_1.png" alt="">
+</div>
+<div class="video_box">
+  <div class="video_box_zhezhaohei"></div>
+  <div class="video_rel_box">
+    <video id="video" controls="controls" width="100%" height="100%" autoplay="autoplay" src=""></video>
+    <img class="video_box_close" src="./images/smy_video_close.png">
+  </div>
+</div>
+<script type="text/javascript">
+    function xiaoshi(){
+      document.getElementsByClassName('detail_share')[0].style.display='none';
+    }
+</script>
+</body>
+</html>

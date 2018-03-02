@@ -1,0 +1,122 @@
+.comment_wrapper{
+    width:100%;
+    height:auto;
+    background-color:#f5e4bb;
+    overflow:hidden;
+}
+.comment_bg{
+    width:100%;
+    height:4.4rem;
+    position:relative;
+    background: url("../images/com_banner.png") no-repeat top center;
+    background-size:contain;
+}
+.comment_top{
+    height:8.34rem;
+    background:url('../images/c_detail_title.png') top center;
+    background-size:contain;
+    text-align: center;
+}
+.com_top_con{
+    margin:0 auto;
+    padding-top:2.2rem;
+    width:2.5rem;
+    height:2.5rem;
+}
+.com_top_con img{
+    width:100%;
+}
+.comment_top a{
+    display:inline-block;
+    padding:0.2rem 0.6rem;
+    margin-top:0.3rem;
+    background-color:#fcdd4d;
+    border-radius:1.702rem;
+    font-size:0.477rem;
+    color:#333;
+}
+.comment_top a span{
+    color:#684e9c;
+}
+.comment_con{
+    margin:0 0.65rem;
+    padding:0 0 0.511rem;
+    background-color:#684e9c;
+    border:1px solid #684e9c;
+    text-align:center;
+    border-radius:0 0 20px 20px;
+}
+.comment_con a{
+    margin:0.34rem;
+    display:inline-block;
+    padding:0.17rem 0.511rem;
+    background-color: #fff;
+    border-radius:0.851rem;
+    color:#333333;
+    font-size:0.477rem;
+}
+.p_list_con{
+    width:100%;
+    /*height:500px;*/
+}
+ul.p_list1{
+    display: flex;
+    flex-direction: row;
+}
+.p_list1 li.p_list1_item{
+    flex:1;
+    /*padding:20px;
+    background-color:#fff;
+    border:1px solid #684e9c;*/
+}
+.p_list2{
+    display: flex;
+    flex-direction: column;
+}
+.p_list2 li{
+    flex:1;
+    padding:0.5rem;
+    background-color:#fff;
+    border:1px solid #684e9c;
+}
+.p_list2 li img{
+    width:100%;
+}
+.c_say{
+    margin-top:0.34rem;
+    padding:0.17rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.c_say .c_say_left{
+    flex:1.5;
+}
+.c_say .c_say_left img{
+    width:100%;
+}
+.c_say .c_say_right{
+    flex:1;
+    margin-top:0.34rem;
+}
+.c_say .c_say_right a{
+    font-size:0.4rem;
+    background-color:#ffea00;
+    border-radius:0.17rem;
+    padding:0.17rem;
+}
+.comment_footer{
+    margin:0.6rem 0.5rem;
+    padding:0.34rem;
+    background-color: #684e9c;
+    border-radius:0.17rem;
+    text-align:center;
+}
+.comment_footer img{
+    width:100%;
+}
+.comment_footer p{
+    margin-top:0.34rem;
+    color:#fff;
+    font-size:0.5rem;
+}

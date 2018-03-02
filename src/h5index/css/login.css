@@ -1,0 +1,247 @@
+@font-face {
+  font-family: 'iconfont';
+  src: url('../font/iconfont.eot');
+  src: url('../font/iconfont.eot?#iefix') format('embedded-opentype'),
+  url('../font/iconfont.woff') format('woff'),
+  url('../font/iconfont.ttf') format('truetype'),
+  url('../font/iconfont.svg#iconfont') format('svg');
+}
+.iconfont{
+  font-family:"iconfont" !important;
+  font-size:16px;font-style:normal;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-stroke-width: 0.2px;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.denlvbox{
+	width: 100%;
+	background: rgba(0,0,0,0.4);
+	position: fixed;
+	left: 0;
+	top:0;
+	display: none;
+	z-index: 1000;
+}
+
+.registerbox{
+	width: 8.685rem;
+	height: 10.895rem;
+	background: #fff;
+	border-radius: 0.411rem;
+	position: absolute;
+	left:0;
+	right:0;
+	/* top:3.158rem; */
+	top:0;
+	bottom:0;
+	margin:auto;
+}
+.denlvTop{
+	padding-top: 0.474rem;
+	font-size: 18px;
+	color:#0D0101;
+	text-align: center;
+	line-height: 0.79rem
+}
+.denlvTop ul{
+	width: 3.632rem;
+	overflow: hidden;
+	margin:0.079rem auto 0;
+}
+.denlvTop ul li{
+	width: 1.105rem;
+	height: 0.032rem;
+	float:left;
+	margin-right: 0.158rem;
+	background: #E8EFF6
+}
+.denlvTop ul li:last-child{
+	margin-right: 0;
+}
+.denlvTop ul li:nth-child(2){
+	background: #2B8EEF
+}
+.registerCon{
+	padding:0.632rem 0.632rem 0;
+}
+
+.formbox{
+	width: 100%;
+	height: 1.263rem;
+	border:1px solid #c5c5c5;
+	border-radius: 0.79rem;
+	line-height: 1.263rem;
+	margin-bottom: 0.79rem;
+	position: relative;
+}
+.formbox .iconfont{
+	font-size:20px;
+	color:#B2B2B2;
+	margin-left: 0.474rem;
+	float:left;
+}
+.formbox input{
+	float:left;
+	height: 1.232rem;
+	line-height: 1.232rem;
+	margin-left: 0.189rem;
+	font-size: 14px;
+	color:#333;
+}
+.error{
+	position: absolute;
+	left:0.553rem;
+	top:1.342rem; 
+	font-size: 10px;
+	color:#DC2828;
+	line-height: 0.474rem;
+	display: none;
+	width: 7.895rem
+}
+.formbox.formbox_active{
+	border:1px solid #DC2828;
+}
+.formbox.formbox_active .iconfont{
+	color:#DC2828;
+}
+.formbox.formbox_active .error{
+	display: block;
+}
+
+
+.yanzhen{
+	width: 100%;
+	height: 1.263rem;
+	margin-bottom: 0.79rem
+}
+.yanzhen .formbox{
+	float:left;
+	width: 3.948rem;
+	margin-bottom: 0
+}
+.yanzhen button{
+	width: 3.158rem;
+	height: 1.263rem;
+	float:right;
+	background: #B2B2B2;
+	color:#fff;
+	font-size: 14px;
+	line-height: 1.263rem;
+	border-radius: 0.79rem;
+	pointer-events: none;
+} 
+button.yanzhenNum{
+	background: #2B8EEF;
+	pointer-events: auto;
+}
+.yanzhen .formbox input{
+	width: 2.211rem
+}
+.registerBtn{
+	width: 100%;
+	height: 1.263rem;
+	border-radius: 0.79rem;
+	border:0px;
+	font-size: 16px;
+	color:#fff;
+	background: #B1B1B1;
+	pointer-events: none;
+}
+.registerWord{
+	text-align: right;
+	font-size: 14px;
+	color:#686868;
+	padding:0 0.632rem;
+	line-height: 0.584rem;
+	margin-top: 0.316rem
+}
+.registerWord span{
+	color:#2B8EEF;
+}
+
+
+.loginbox{
+	width: 8.685rem;
+	height: 9.474rem;
+	background: #fff;
+	border-radius: 0.411rem;
+	position: absolute;
+	left:0;
+	right:0;
+	top:3.858rem;
+	margin:0 auto;
+	display: none;
+}
+.loginWord{
+	line-height: 0.584rem;
+	padding: 0 0.553rem;
+	font-size: 14px;
+	color:#2B8EEF;
+	margin-bottom: 0.474rem;
+	overflow: hidden;
+}
+.loginWord p{
+	float:left;
+}
+.loginWord span{
+	float:right;
+	color:#686868;
+}
+.registerBtn.register_active{
+	background: #2B8EEF;
+	pointer-events: auto;
+}
+
+.resetbox{
+	width: 8.685rem;
+	height: 10.895rem;
+	background: #fff;
+	border-radius: 0.411rem;
+	position: absolute;
+	left:0;
+	right:0;
+	top:3.158rem;
+	margin:0 auto;
+	display: none;
+}
+
+.confirmBox{
+	width: 8.685rem;
+	height: 6.316rem;
+	background: #fff;
+	border-radius: 0.411rem;
+	position: absolute;
+	left:0;
+	right:0;
+	top:3.858rem;
+	margin:0 auto;
+	display: none;
+}
+.confirmCon{
+	margin-top: 0.474rem
+}
+.confirmCon h2{
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 0.711rem;
+	text-align: center;
+	margin-bottom: 0.158rem
+}
+.payBtn{
+	width: 5.7rem;
+	height: 1.263rem;
+	background: #2B8EEF;
+	color:#fff;
+	font-size: 16px;
+	text-align: center;
+	line-height: 1.263rem;
+	display: block;
+	margin:0.474rem auto;
+	border-radius: 0.79rem
+}
+.confirmWord{
+	text-align: center;
+	font-size: 14px;
+	color:#2B8EEF;
+}

@@ -1,0 +1,190 @@
+body{
+	background: #fff;
+}
+.courseTitle{
+	background: #2B8EEF;
+	color:#fff;
+	text-align: center;
+	padding:0.545rem 26px 0.613rem 28px;
+}
+.courseTitle h2{
+	font-weight: normal;
+	font-size: 20px;
+	margin-bottom: 0.272rem;
+	color: white;
+}
+.courseTitle h2 i{
+	font-size: 20px;
+	margin-right:0.272rem;
+}
+.courseTitle p{
+	font-size: 14px;
+	color:rgba(255,255,255,0.8);
+	line-height: 0.715rem
+}
+.surveyBox{
+	padding:0 0.511rem;
+}
+.surveyBox li{
+	margin-top: 0.477rem;
+	border-bottom: 1px dashed #D3D3D3;
+	padding-bottom: 0.409rem;
+}
+.surveyBox li p{
+	font-size: 16px;
+	line-height: 0.766rem;
+}
+.btnbox{
+	margin-top: 0.323rem;
+	display: flex;
+	justify-content: space-between;
+}
+.btnbox button{
+	background: #fff;
+	border:1px solid #777474;
+	width: 2rem;
+	height: 0.851rem;
+	color:#777474;
+	border-radius: 0.851rem;
+	box-sizing:border-box;
+	-moz-box-sizing:border-box; /* Firefox */
+	-webkit-box-sizing:border-box; /* Safari */
+}
+button.click-active{
+	background: #2B8EEF;
+	color:#fff;
+	border:1px solid #2B8EEF;
+}
+button.btnbox-big{
+	width: 4.35rem;
+}
+.btn{
+	margin-right: 0.306rem
+}
+
+.perfectInfor{
+	margin-top: 0.681rem;
+}
+/*改*/
+.titlebox span{
+	float: left;
+	width: 0.102rem;
+	height: 0.545rem;
+	background:#2B8EEF;
+	display: inline-block;
+	margin-top: 0px;
+	border-radius: 0.085rem;
+	margin-right: 0.238rem;
+    margin-left: 10px;
+}
+.titlebox{
+	overflow: hidden;
+	line-height: 0.579rem;	
+	padding-left:0.477rem;
+	padding-right:0.477rem;
+}
+/*改*/
+.titlebox h2{
+	font-weight: normal;
+	float: left;
+	font-size: 14px;
+}
+
+.perfectInfor ul{
+	padding:0 0.477rem;
+}
+.perfectInfor ul li{
+	margin-top: 0.477rem;
+	border:1px solid #D3D3D3;
+	box-sizing:border-box;
+	-moz-box-sizing:border-box; /* Firefox */
+	-webkit-box-sizing:border-box; /* Safari */
+	height: 1.191rem;
+	line-height: 1.191rem;
+	font-size: 16px;
+	padding-left: 0.136rem;	
+    color:#777474;
+}
+.perfectInfor ul li span{
+	font-size: 0.4rem;
+	margin-left: 7px;
+}
+.perfectInfor ul li span i{
+	font-size: 18px;
+	color:#dc2828;
+	vertical-align: sub;
+	margin-right: 0.255rem;
+	font-style: normal;
+}
+.perfectInfor ul li input{
+	outline: none;
+}
+.perfectInfor ul li span .iconfont{
+	color:#777474;
+	margin-left: 0.136rem;
+	vertical-align: middle;
+}
+.sexbox{
+	float:right;
+	margin-right: 0.681rem;
+}
+
+.rdo {
+    width: 0.34rem;
+    height: 0px;
+    background-color: #000;
+    margin-right: 0.272rem;
+    border-radius: 50%;
+    position: relative;
+    top:-0.306rem;
+}
+.rdo:before,.rdo:after {
+    content: '';
+    display: block;
+    position: absolute;
+    border-radius: 50%;
+    transition: .3s ease;
+}
+.rdo:before {
+    top: 0px;
+    left: 0px;
+    width: 0.34rem;
+    height: 0.34rem;
+    background-color: #fff;
+    border: 1px solid #b8b8b8;
+}
+.rdo:after {
+    top: 0.07rem;
+    left: 0.07rem;
+    width: 0.2rem;
+    height: 0.2rem;
+    background-color: #b8b8b8; 
+}
+.rdo:checked:after {
+	top: 0.07rem;
+	left: 0.07rem;
+	width: 0.2rem;
+	height: 0.2rem;
+	background-color:#2B8EEF;
+}
+.rdo:checked:before {
+	border-color:#2B8EEF;
+}
+
+#girl{
+	margin-left: 0.8rem;
+}
+.susBtn{
+	width: 4.357rem;
+	height: 1.089rem;
+	background: #FF6600;
+	color:#fff;
+	display: block;
+	margin:0 auto;
+	margin-top: 1.362rem;
+	border-radius: 0.851rem;
+	text-align: center;
+	line-height: 1.089rem;
+	font-size: 14px;
+	margin-bottom: 1.396rem
+}
